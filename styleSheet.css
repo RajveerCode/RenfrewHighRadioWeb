@@ -38,6 +38,12 @@ li a, .dropbtn {
   text-decoration: none;
 }
 
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 li a:hover, .dropdown:hover .dropbtn {
   background-color: #63000a;
 }
@@ -72,9 +78,23 @@ li.dropdown {
 	background-color:#63000a;
 }
 
+.description {
+  padding: 20px;
+}
 
+.videoStyle {
+  float: left;
+  width: 10%;
+}
 
+.video{
+	padding:5;
+}
 
+.text{
+	float:left;
+	width:55%;
+}
 
 
 
