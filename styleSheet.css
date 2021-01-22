@@ -5,8 +5,8 @@
 	margin: 0 0 0 -8;
 	padding: 0;
 	top: 0;
-	width:102.2%;
-	height:175;
+	width:100.75%;
+	height:250;
 }
 
 body{
@@ -21,7 +21,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #bd2f3d;
-  width:102.2%;
+  width:100.75%;
   top: 0;
 }
 
@@ -60,42 +60,75 @@ li.dropdown {
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  display: block;
-  text-align: left;
+	color: black;
+	padding: 12px 16px;
+	display: block;
+	text-align: left;
 }
 
 .dropdown-content a:hover {
-	color: #737373;
+	color: white;
 	}
 
 .dropdown:hover .dropdown-content {
-  display: block;
+	display: block;
 }
 
 .active{
 	background-color:#63000a;
 }
-
+/*rearange the page*/
 .description {
-  padding: 20px;
+	padding: 20px;
 }
 
 .videoStyle {
-  float: left;
-  width: 10%;
+	float: left;
+	width: 10%;
 }
 
 .video{
-	padding:5;
+	padding:2.5;
 }
 
 .text{
 	float:left;
 	width:55%;
+	background-color:#ffb8bf;
+	padding:5;
+	margin:15 15 15 15;
+	outline-style:outset;
+	
+}
+/* this is for the form*/
+input[type=text], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border-radius: 4px;
+	box-sizing: border-box;
+	border: 2px inset #555
 }
 
+input[type=submit] {
+	width: 100%;
+	background-color: white;
+	color: black;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: 2px inset #555;
+	border-radius: 4px;
+	cursor: pointer;
+}
 
+.form{
+	margin-top:20;
+	
+	background-color: #ffb8bf;
+	padding: 20px;
+	border:1.75px groove #555;
+	
+}
 
 
